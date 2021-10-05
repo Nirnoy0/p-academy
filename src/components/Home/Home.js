@@ -1,9 +1,14 @@
+import 'react-bootstrap';
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
+
     return (
         <div>
-            <h2>hello home</h2>
+
+        
+
         </div>
     );
 };
