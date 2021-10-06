@@ -5,6 +5,9 @@ import './Home.css';
 import img1 from './Images/carosol-1.jpg';
 import img2 from './Images/carosol-2.jpg';
 import img3 from './Images/carosol-3.png';
+import Services from '../Services/Services';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
 
@@ -21,6 +24,9 @@ const Home = () => {
                     <img src={img3} height="500px" wi alt="img3" />
                 </Carousel.Item>
             </Carousel>
+            <Services></Services>
+            <About></About>
+            <Contact></Contact>
         </div>
     );
 };

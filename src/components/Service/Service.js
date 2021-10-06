@@ -1,7 +1,8 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './Service.css'
+import 'react-bootstrap';
+import './Service.css';
 
 const Service = (props) => {
     const {course,duration,instructor,img,price}=props.Service
@@ -16,7 +17,9 @@ const Service = (props) => {
                 <h6>Instructor: {instructor}</h6>
                 <h6>Course Fees: {price}</h6>
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Purchse Now</button>
+                </div>
             </Card.Body>
             </Card>
         </div>
