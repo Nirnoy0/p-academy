@@ -1,0 +1,12 @@
+.address{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+.details{
+    border: goldenrod 2px solid;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
